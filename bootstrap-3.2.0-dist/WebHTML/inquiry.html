@@ -1,94 +1,109 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="robots" content="ALL">
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <style type"text/css">
-    </style>
-    <title>お問い合わせ｜天ぷら屋桜囲</title> 
+    <link rel="stylesheet" href="css/inquiry.css"/>
+    <title>お問い合わせ｜天ぷら屋桜囲</title>
 
   </head>
-  <body>
-    <header id="" class="container">
-      <div id="logo" class="row" style="padding-top:134     0px;padding-bottom:5px;paddng-left:10px">
-        <div class="col-sm-6" style="background-col34     or:deeppink;"><a href="index.html"><img alt="" height="85" 34      width="515" src="cmn_img/logo.gif"/></a></div>
-        <div class="col-sm-6" style="background-col34     or: gray;"></div>
-      </div>
 
+  <body class="container" background="img/bg.png">
+
+
+    <header class="container">
+      <div id="logo" class="row" >
+        <div class="col-md-6">
+          <img class="img-responsive"   src="img/header.png"
+          alt="ヘッダー">
+        </div>
+        <div class="col-md-6 text-center" style="font-size:20px">
+          <p class="logo-sub">お気軽にお問い合わせして下さい</p>
+          <p class="logo-sub2">TEL 098-869-9255</p>
+          <p class="logo-sub3">営業時間 11:00~20:00</p>
+        </div>
+      </div>
     </header>
 
-    <nav id="container padding-none">
-      <div style="padding-top:5px;padding-bottom:5px">
-        <ul class="nav navbar-header nav-pills nav-justified"style="background-color:aqua;" >
-          <li><a href="index.html">ホーム</a></li>
-          <li><a href="menu.html">メニュー</a></li>
-          <li><a href="store.html">店舗情報</a></li>
-          <li><a href="inquiry.hyml">お問い合わせ</a></li>
+
+    <nav class="container padding-none">
+      <div class="tab">
+        <ul class="nav navbar-header nav-pills nav-justified">
+          <li><a href="index.html" class="c">ホーム</a></li>
+          <li><a href="menu.html" class="c">メニュー</a></li>
+          <li><a href="store.html" class="c">店舗情報</a></li>
+          <li><a href="inquiry.html" class="c">お問い合わせ</a></li>
         </ul>
       </div>
     </nav>
+
+
     <section class="container">
-      <div id="contents" class="clear">
-        <p><img src="../img/tenpura_img_012.jpg" width="960" height="210" alt="アツアツをまごころこめてあげています。" /></p>
-      </section>
-      <section class="container">
-        <ol id="topicpath">
-          <li><a href="index.html">ホーム</a></li>
-          <li>お問い合わせ</li>
-        </ol>
-      </section>
-      <section class="container">    
-        <h1><img src="../img/inquiry_img_001.gif" width="960" height="51" alt="お問い合わせ" /></h1> 
+      <div class="row">
+        <div class="text-center hidden-xs logo"><img src="img/toiawase.png" class="col-sm-12 logo" alt="" /></div>
+      </div>
+    </section>
 
-        <form method="post" action="#" class="contact">
 
+    <section class="container">
+      <p><a href="index.html">ホーム</a>＞お問い合わせ</p>
+    </section>
+
+
+    <section class="container">
+      <div class="row tab text-center mag-Top mag-Bottom">
+        <form method="post" action="#" class="contact" id="formmail">
           <p>以下のフォームにご入力の上、「入力内容の確認画面へ」ボタンをクリックしてください。</p>
-
-          <p class="attention"><img src="img/required8.gif" alt="必須" width="26" height="15"> マークの項目は入力必須となります。</p>
-
-          <div class="fields">
-
-            <table>
-              <caption>お問い合わせ</caption>
-              <tbody>
+          <table align="center" class="sample_03">
+            <tbody>
+              <div class="fields">
+                <tr>
+                  <th><label>お名前</label></th>
+                  <td><input type="text" name="" size="30"required></input></td>
+                </tr>
+                <tr>
+                  <th><label>メールアドレス</label></th>
+                  <td><input type="email" name="" size="30"required></input></td>
+                </tr>
                 <tr>
                   <th><label for="type">お問い合わせの種類</label></th>
-                  <td class="required"><img src="img/required8.gif" alt="必須" width="26" height="15"></td>
-                  <td><select name="type" id="type">
+                  <td>
+                    <select name="type" id="type">
                       <option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
                       <option value="予約">予約</option>
                       <option value="その他のご連絡">その他のご連絡</option>
-                  </select></td>
+                    </select>
+                  </td>
                 </tr>
                 <tr>
                   <th><label for="message">お問い合わせ内容</label></th>
-                  <td class="required"><img src="img/required8.gif" alt="必須" width="26" height="15"></td>
-                  <td><textarea name="message" id="message" rows="5" cols="40"></textarea></td>
+                  <td><textarea name="message" id="message" rows="10" cols="50"required></textarea></td>
                 </tr>
-              </tbody>
-            </table>
+              </div>
+            </tbody>
+          </table>
 
+          <div class="bbutton">
+            <td>
+              <input type="reset" value="リセット" class="reset"/>
+              <input type="submit" value="送信" class="button">
+            </td>
           </div>
-          <td>
-          <p class="button"><input type="submit" value="入力内容の確認画面へ"></p><input type="reset" value="リセット" />
-        </td>
-        </section>
+        </div>
+      </section>
 
 
-
-      </div><!-- //contents -->
-
-
-
-    </div><!-- //wrap -->
-
-    <footer id="footer" class="container">
-      <p class="mt48"><img src="../cmn_img/foter_logo.png" width="512" height="84" alt="天ぷら屋桜囲" /></p>	
-      <p class="address"><small>Copyright © 天ぷら屋桜囲</small></p>
-    </footer>
-
-  </body>
-</html>
+      <footer id="footer" class="container">
+        <div class="row tab">
+          <div class="col-md-12 footer_text text-center tab">
+            <img src="img/footer.png" class="col-md-12 hidden-xs" alt=""/>
+            <p>Copyright ©  桜囲 All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>

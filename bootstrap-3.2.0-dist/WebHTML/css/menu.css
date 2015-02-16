@@ -1,0 +1,204 @@
+#logo {
+  margin-top:15px;
+  margin-bottom:5px;
+  margin-left:10px"
+}
+
+
+/*add*/
+.logo-sub {
+margin:0px;
+font-size:15px
+}
+
+.logo-sub2 {
+margin:0px;
+font-size:35px;
+}
+
+.logo-sub3 {
+margin:0px;
+font-size:15px
+}
+
+.c {
+  color:black;
+  font-size:20px;
+}
+
+.tab {
+  padding-top:5px;
+  padding-top:5px;
+}
+
+.mag-Top{
+  padding-top:20px;
+}
+
+.mag-top{
+  padding-top:10px;
+}
+.mag-Bottom{
+  margin-bottom:20px;
+}
+.mag-bottom {
+  margin-bottom:5px;
+}
+/*end*/
+
+
+.bgred {
+  background-color: #660000;
+  border: 1px solid #FF0000;
+
+}
+
+.padding-none {
+  padding: 0;
+}
+
+
+/* TOP */
+#gaigo_web section {
+  margin-bottom: 20px;
+}
+
+.header_text p {
+  font-size: 80%;
+}
+
+.footer_text p {
+  font-size: 80%;
+}
+.footer_text p {
+  font-size: 80%;
+}
+
+
+/* TOP Slider */
+.top_slider {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.top_slider p {
+  padding-top: 10px;
+}
+
+
+/* TOP Thumbnail Contents */
+.top_thumbnail {
+  padding:0;
+  margin:0;
+}
+.top_thumbnail > div {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 5px 10px 5px;
+}
+
+
+.top_thumbnail p {
+  padding-top: 10px;
+  margin-bottom:0px;
+}
+
+/* TOP NEXT OPEN CAMPUS */
+.next_opencampus_list {
+  padding:0;
+  margin:0;
+
+}
+.next_opencampus_list > div {
+  background-color: #da000f;
+  padding: 10px 10px 6px 10px;
+  margin: 0 5px 10px 5px;
+
+}
+.next_opencampus_list ul {
+  padding-left: 0;
+  list-style: none;
+}
+.next_opencampus_list ul li {
+  margin-bottom: 1px;
+}
+
+/* TOP NEWS */
+.top_news {
+  padding:0;
+  margin:0;
+}
+.top_news > div {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 5px 10px 5px;
+}
+
+.top_news_title{
+  padding: 5px 0 5px 5px;
+  background-color: #da000f;
+  color: #ffffff;
+}
+.top_news ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.top_news ul li {
+  clear:both;
+  display: block;
+  margin: 0 0 10px 0;
+}
+.top_news ul li img {
+  display:inline-block;
+  margin: 0 10px 0 0;
+}
+.top_news ul li p {
+  display:inline-block;
+}
+
+
+.pad-Top{
+  padding-top:10px
+}
+.pad-Botm{
+  padding-bottom:10px
+}
+.pad-LR {
+  padding-right:5px;
+  padding-left:5px;
+}
+
+.style-wmLR{
+  width:960;
+  margin:0
+}
+
+.img-style{
+  height:60px;
+  width:245px;
+}
+
+.img-style2{
+  height:57px;
+  width:247px;
+}
+
+.list{
+  list-style:none;
+}
+
+.pad-L{
+  padding-left:31px
+}
+
+.pad-Botm{
+  padding-bottom:20px;
+}
+
+.pad-Tp{
+  padding-Top:20px;
+}
+
+.longwidth{
+  width:1200px;
+}
